@@ -47,15 +47,15 @@ public class WorkersFarm {
         for (int i=0 ; i<disabledWorkersList.size() ; i++){
             totalPayment +=disabledWorkersList.get(i).getWage();
         }
-        // adding lazyworkers payments to total payment
+        // adding lazyworkers payments to total farm payment
         for (int i=0 ; i<lazyWorkerList.size() ; i++){
             totalPayment +=lazyWorkerList.get(i).getWage();
         }
-        // getting childworkers payments total payments
+        // getting childworkers payments total farm payment
         for (int i=0 ; i<childWorkerList.size() ; i++){
             totalPayment +=childWorkerList.get(i).getWage();
         }
-        // getting goodworkers payments total payments
+        // getting goodworkers payments total farm payment
         for (int i=0 ; i<goodWorkerList.size() ; i++){
             totalPayment +=goodWorkerList.get(i).getWage();
         }
